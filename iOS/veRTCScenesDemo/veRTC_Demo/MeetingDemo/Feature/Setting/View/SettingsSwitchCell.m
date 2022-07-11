@@ -1,5 +1,4 @@
 #import "SettingsSwitchCell.h"
-#import <Masonry.h>
 
 @interface SettingsSwitchCell ()
 

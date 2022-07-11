@@ -8,7 +8,7 @@
 
 #import "MeetingScreenComponents.h"
 #import "SettingsService.h"
-#import "AppDelegate.h"
+// #import "AppDelegate.h"
 
 @interface MeetingScreenComponents ()
 
@@ -81,8 +81,8 @@
 #pragma mark - Private Action
 
 - (void)updateAppdelegateScreenShareing:(BOOL)isScreenShareing {
-    AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
-    delegate.isScreenShareing = isScreenShareing;
+    // AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+    // delegate.isScreenShareing = isScreenShareing;
 }
 
 - (void)dealloc {

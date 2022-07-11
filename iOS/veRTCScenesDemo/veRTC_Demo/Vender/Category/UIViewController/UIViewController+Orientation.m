@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+Orientation.h"
-#import "AppDelegate.h"
+// #import "AppDelegate.h"
 
 @implementation UIViewController (Orientation)
 
@@ -19,8 +19,8 @@
 }
 
 - (void)setAllowAutoRotate:(BOOL)isRotate {
-    AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
-    delegate.allowAutoRotate = isRotate;
+    // AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+    // delegate.allowAutoRotate = isRotate;
 }
 
 - (void)onDeviceOrientationDidChange {

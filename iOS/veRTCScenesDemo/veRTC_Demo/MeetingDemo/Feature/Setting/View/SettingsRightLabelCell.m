@@ -1,6 +1,6 @@
 #import "SettingsRightLabelCell.h"
 #import "SettingsService.h"
-#import <Masonry.h>
+#import <Masonry/Masonry.h>
 
 @interface SettingsRightLabelCell ()
 
